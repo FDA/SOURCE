@@ -6,7 +6,7 @@ Model, analysis code, data and output files for FDA opioid systems model, as sub
 
 **NOTE:** This is an archival version of the data and materials, corresponding to the version of the manuscript submitted on (DATE). For the most updated version, please see the live repository at [github.com/FDA/SOURCE](https://github.com/FDA/SOURCE).
 
-For any questions please contact [Tse Yang Lim](mailto:tylim@mit.edu)
+For any questions, please contact [Tse Yang Lim](mailto:tylim@mit.edu).
 
 ### Analysis & Graphing
 Vensim model files and Python code (in .ipynb format) used for model estimation, analysis, and graphing of results in the published papers & supplementary materials. This is the 'working' directory of this repository.
