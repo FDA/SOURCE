@@ -23,7 +23,7 @@ Documentation of model structure, estimation process, and supplementary analyses
 Minimal file and code package needed to replicate the analysis 'from scratch', without any pre-generated results or figures. **Use this to directly replicate the complete model estimation & analysis process.** To do so:
 1. Make a local copy of this folder
 2. Update the ControlFile OICC\*.txt according to the instructions [here](Analysis%20%26%20Graphing/README.md)
-3. Run OIC-OO v6.ipynb, loading the updated ControlFile when prompted; make sure any necessary Python packages are installed before attempting to run!
+3. Run [OIC-OO v7.ipynb](Model%20%26%20Analysis%20Replication%20Package/OIC-OO%20v7.ipynb), loading the updated ControlFile when prompted; make sure any necessary Python packages are installed before attempting to run!
 4. Then run OSM Results Processing.ipynb
 5. Then run the desired Graphing .ipynb code in any order
 
