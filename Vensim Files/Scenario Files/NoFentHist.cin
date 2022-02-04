@@ -1,0 +1,7 @@
+FINAL TIME=2032
+Switch for constant projections[Proj]=0
+NoiseStartTime=2020.5
+Policy activation time = 2022
+Policy rampup duration = 3
+
+Switch for no fentanyl=1

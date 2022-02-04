@@ -1,0 +1,9 @@
+Policy change patients with opioid prescription = -0.50
+Policy change initiating NDHU no Rx = -0.5
+Policy change initiation rate heroin with Rx misuse = -0.5
+Policy change Nx kits distributed = 0.5
+Policy change social influence strength relapse = 0.936
+Policy change relapse rate = -0.5
+Policy change HUD no Rx OUD development rate = -0.5
+Policy change HUD with Rx OUD development rate = -0.5
+Policy change Rx OUD development rate = -0.5
