@@ -14,7 +14,7 @@ Vensim model files and Python code (in .ipynb format) used for model estimation,
 ### Data
 Excel data and documentation files, as well as R code for pre-processing of NSDUH data. Explanations of data calculations, assumptions, literature reviews, etc. are in these files.
 
-**Note:** Vensim data format (VDF) versions of the relevant portions of these data files used in the model are found in [Vensim Files](./Vensim Files/) and the [Replication Package](./Replication Package/).
+**Note:** Vensim data format (VDF) versions of the relevant portions of these data files used in the model are found in [Vensim Files](./Vensim Files) and the [Replication Package](./Replication Package).
 
 ### Model Documentation & Review Reports
 Documentation of model structure, estimation process, and supplementary analyses, as well as final reports from FDA-commissioned third-party reviews.
