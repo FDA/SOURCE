@@ -4,7 +4,7 @@
 
 Model, analysis code, data and output files for FDA opioid systems model, as submitted for publication in *PNAS* as Lim et al. 2022, "Modeling the evolution of the U.S. opioid crisis for national policy development", and as utilized for analyses submitted for publication in *Science Advances* as Stringfellow et al. 2022, "Reducing opioid use disorder and overdose in the United States: A dynamic modeling analysis".
 
-**NOTE:** This is an archival version of the data and materials, corresponding to the version of the manuscript submitted on (DATE). For the most updated version, please see the live repository at [github.com/FDA/SOURCE](https://github.com/FDA/SOURCE).
+**NOTE:** This is an archival version of the data and materials, corresponding to the versions of the manuscripts submitted on 04 Feb 2022 and 17 Feb 2022 respectively. For the most updated version, please see the live repository at [github.com/FDA/SOURCE](https://github.com/FDA/SOURCE).
 
 For any questions, please contact [Tse Yang Lim](mailto:tylim@mit.edu).
 
