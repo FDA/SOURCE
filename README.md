@@ -2,17 +2,7 @@
 #### *Simulation of Opioid Use, Response, Consequences, and Effects*
 ###### (Note: Automatic redirect from [github.com/tseyanglim/PROMISE](https://github.com/tseyanglim/PROMISE))
 
-Model, analysis code, data and output files for FDA opioid systems model, as published in Lim et al. 2022, "Modeling the evolution of the U.S. opioid crisis for national policy development" (UPDATE WITH MODEL PAPER CITATION ONCE PUBLISHED) and Stringfellow et al. 2022, "Reducing opioid use disorder and overdose in the United States: A dynamic modeling analysis" (UPDATE WITH POLICY PAPER CITATION ONCE PUBLISHED).
-
-**NOTE:** This is the live, up-to-date version of the data and materials for the model. Archival versions corresponding to the publications available here:
-[Lim et al. 2022](UPDATE WITH ZENODO LINK)
-[Stringfellow et al. 2022](UPDATE WITH ZENODO LINK).
-
-Model, analysis code, data and output files for FDA opioid systems model, submitted for publication in *PNAS* as Lim et al. 2022, "Modeling the evolution of the U.S. opioid crisis for national policy development".
-
-**NOTE:** This is an archival version of the data and materials, corresponding to the version of the manuscript submitted on (DATE). For the most updated version, please see the live repository at [github.com/FDA/SOURCE](https://github.com/FDA/SOURCE).
-
-Model, analysis code, data and output files for FDA opioid systems model, submitted for publication in *Science Advances* as Stringfellow et al. 2022, "Reducing opioid use disorder and overdose in the United States: A dynamic modeling analysis".
+Model, analysis code, data and output files for FDA opioid systems model, as submitted for publication in *PNAS* as Lim et al. 2022, "Modeling the evolution of the U.S. opioid crisis for national policy development", and as utilized for analyses submitted for publication in *Science Advances* as Stringfellow et al. 2022, "Reducing opioid use disorder and overdose in the United States: A dynamic modeling analysis".
 
 **NOTE:** This is an archival version of the data and materials, corresponding to the version of the manuscript submitted on (DATE). For the most updated version, please see the live repository at [github.com/FDA/SOURCE](https://github.com/FDA/SOURCE).
 
@@ -22,10 +12,11 @@ For any questions please contact [Tse Yang Lim](mailto:tylim@mit.edu)
 Vensim model files and Python code (in .ipynb format) used for model estimation, analysis, and graphing of results in the published papers & supplementary materials. This is the 'working' directory of this repository.
 
 ### Data
-Excel data and documentation files, as well as R code for pre-processing of NSDUH data. Explanations of data calculations, assumptions, literature reviews, etc. are in these files. **Note:** Vensim data format (VDF) versions of the relevant portions of these data files used in the model are found in [Vensim Files](/Vensim Files/) and the [Replication Package](/Replication Package/).
+Excel data and documentation files, as well as R code for pre-processing of NSDUH data. Explanations of data calculations, assumptions, literature reviews, etc. are in these files.
+
+**Note:** Vensim data format (VDF) versions of the relevant portions of these data files used in the model are found in [Vensim Files](/Vensim Files/) and the [Replication Package](/Replication Package/).
 
 ### Model Documentation & Review Reports
-(THIS SECTION ONLY FOR LIVE REPO & POLICY PAPER ARCHIVE REPO, NOT MODEL PAPER ARCHIVE REPO)
 Documentation of model structure, estimation process, and supplementary analyses, as well as final reports from FDA-commissioned third-party reviews.
 
 ### Model & Analysis Replication Package
