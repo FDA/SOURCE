@@ -1,6 +1,5 @@
 # SOURCE
 #### *Simulation of Opioid Use, Response, Consequences, and Effects*
-###### (Note: Automatic redirect from [github.com/tseyanglim/PROMISE](https://github.com/tseyanglim/PROMISE))
 
 Model, analysis code, data and output files for FDA opioid systems model, as submitted for publication in *PNAS* as Lim et al. 2022, "Modeling the evolution of the U.S. opioid crisis for national policy development", and as utilized for analyses submitted for publication in *Science Advances* as Stringfellow et al. 2022, "Reducing opioid use disorder and overdose in the United States: A dynamic modeling analysis".
 
