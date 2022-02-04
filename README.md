@@ -24,10 +24,10 @@ Minimal file and code package needed to replicate the analysis 'from scratch', w
 1. Make a local copy of this folder
 2. Update the ControlFile OICC\*.txt according to the instructions [here](Analysis%20%26%20Graphing/README.md)
 3. Run [OIC-OO v7.ipynb](Model%20%26%20Analysis%20Replication%20Package/OIC-OO%20v7.ipynb), loading the updated ControlFile when prompted; make sure any necessary Python packages are installed before attempting to run!
-4. Then run OSM Results Processing.ipynb
+4. Then run [OSM Results Processing.ipynb](Model%20%26%20Analysis%20Replication%20Package/OSM%20Results%20Processing.ipynb)
 5. Then run the desired Graphing .ipynb code in any order
 
-**Important:** The model estimation code is intended to work with an experimental parallelised Vensim engine. With appropriate modifications to the main function calls (but not the analytical procedure), the same analysis can be run on regular commercially available Vensim DSS, though it will take *much* longer, particularly with all supplementary analyses (e.g. sensitivity, synthetic data). Please contact [Tom Fiddaman](mailto:tom@ventanasystems.com) for information on the experimental Vensim engine.
+**Important:** The model estimation code is intended to work with an experimental parallelised Vensim engine. With appropriate modifications to the main function calls (but not the analytical procedure), the same analysis can be run on regular commercially available [Vensim DSS](https://vensim.com/vensim-software/), though it will take *much* longer, particularly with all supplementary analyses (e.g. sensitivity, synthetic data). Please contact [Tom Fiddaman](mailto:tom@ventanasystems.com) for information on the experimental Vensim engine.
 
 ### Publication Figures & Results Summary
 Main estimation results and output tables and figures used in the paper, including summary output files from various robustness and sensitivity analyses. **Publication figures and results can be downloaded directly here.**
