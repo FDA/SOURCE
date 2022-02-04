@@ -1,0 +1,39 @@
+SimVar[TSElm]
+RepVar[TSElm]
+SimPrior[PrElm]
+Total overdose deaths base heroin
+Total overdose deaths synth excess
+Rx OUD all total
+Developing HUD rate no Rx OUD effective
+Developing HUD rate with Rx OUD effective
+Developing Rx OUD rate effective
+Initiation rate heroin with Rx misuse effective
+Initiation rate heroin with Rx OUD effective
+Initiation rate Rx misuse own Rx effective
+Initiating Rx misuse own Rx
+Initiating heroin with Rx misuse
+Initiating heroin with Rx OUD
+Developing HUD with Rx OUD
+Overdose death Rx OUD no H
+Overdose death HUD
+Patients with current month opioid Rx
+Rx misuse no PY heroin
+Rx OUD no PY heroin no MOUD
+Rx OUD with PY heroin no MOUD
+Rx OUD no PY heroin no MOUD
+HUD no MOUD
+Overdose death rate Rx misuse
+Overdose death rate Rx OUD no H
+Overdose death rate Rx OUD with H
+Overdose death rate NDHU
+Overdose death rate HUD
+Overdose death rate synth NDHU
+Overdose death rate synth HUD
+Overdose death rate base HUD no synth counterfactual
+Overdose death rate HUD no Nx counterfactual
+Cumulative overdose deaths synth excess
+Cumulative Nx utilization deaths averted
+Cumulative overdose deaths
+Cumulative UD person years
+Projected cumulative overdose deaths
+Projected cumulative UD person years

@@ -1,0 +1,19 @@
+FINAL TIME=2032
+Switch for constant projections[Proj]=0
+NoiseStartTime=2020.5
+Policy activation time = 2022
+Policy rampup duration = 3
+
+Projection curve end value fentanyl penetration = 0.995
+Projection curve end value Nx kits distributed = 2950000
+Projection curve end value heroin price index = 0.4
+Projection curve end value Bup providers = 135000
+Projection curve end value MMT capacity = 530000
+Projection curve end value Viv capacity = 40000
+Projection curve end value patients with opioid prescription = 35000000
+Projection curve end value prescriptions per person = 3.5
+Projection curve end value days per prescription = 28
+Projection curve end value average MME per day = 28
+Projection curve end value ADF fraction of prescribed Rx opioids = 0.0311
+
+Projection curve end time fentanyl penetration = 2028

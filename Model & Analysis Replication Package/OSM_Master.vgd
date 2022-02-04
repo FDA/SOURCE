@@ -1,0 +1,746 @@
+:GRAPH Rx_supply_availability
+:TITLE Rx Supply and Availability for Misuse
+:SCALE
+:VAR Rx availability for misuse relative
+:VAR Rx supply relative
+:VAR Rx availability for misuse relative
+:DATASET *2
+:VAR Rx supply relative
+:DATASET *2
+:VAR Rx availability for misuse relative
+:DATASET *3
+:VAR Rx supply relative
+:DATASET *3
+
+:GRAPH Rx_misuse_initiation_own_Rx
+:TITLE Rx Opioid Misuse Initiation - Own Rx
+:SCALE
+:VAR Initiating Rx misuse own Rx
+:Y-MIN 0
+:VAR Initiating Rx misuse own Rx RDAS SAMHSA redef correction
+:VAR Initiating Rx misuse own Rx
+:DATASET *2
+:VAR Initiating Rx misuse own Rx
+:DATASET *3
+:VAR Initiating Rx misuse own Rx
+:DATASET *4
+
+:GRAPH Rx_misuse_initiation_diverted
+:TITLE Rx Opioid Misuse Initiation - Diverted
+:SCALE
+:VAR Initiating Rx misuse diverted
+:Y-MIN 0
+:VAR Initiating Rx misuse diverted RDAS SAMHSA
+:VAR Initiating Rx misuse diverted
+:DATASET *2
+:VAR Initiating Rx misuse diverted
+:DATASET *3
+:VAR Initiating Rx misuse diverted
+:DATASET *4
+
+:GRAPH Rx_misuse_initiation_total
+:TITLE Prescription Opioid Misuse Initiation
+:SCALE
+:VAR Total Rx misuse initiation
+:VAR Total Rx misuse initiation SAMHSA redef corrected
+:VAR Total Rx misuse initiation
+:DATASET *2
+:VAR Total Rx misuse initiation
+:DATASET *3
+:VAR Total Rx misuse initiation
+:DATASET *4
+
+:GRAPH Rx_misuse_no_PY_Heroin_Use
+:TITLE Prescription Opioid Misuse
+:SCALE
+:VAR Rx misuse no PY heroin
+:Y-MIN 0
+:VAR Rx misuse no PY heroin NSDUH redef corrected
+:VAR Rx misuse no PY heroin
+:DATASET *2
+:VAR Rx misuse no PY heroin
+:DATASET *3
+:VAR Rx misuse no PY heroin
+:DATASET *4
+
+:GRAPH Rx_Price
+:TITLE Rx Street Price
+:SCALE
+:VAR Rx availability for UD endogenous
+:VAR Rx price Bluelight StreetRx
+:VAR Rx availability for UD endogenous
+:DATASET *2
+:VAR Rx availability for UD endogenous
+:DATASET *3
+:VAR Rx availability for UD endogenous
+:DATASET *4
+
+:GRAPH Rx_OUD_Total
+:TITLE Rx OUD Total
+:SCALE
+:VAR Rx OUD all total
+:Y-MIN 0
+:VAR Rx OUD all total DATA
+:VAR Rx OUD all total
+:DATASET *2
+:VAR Rx OUD all total
+:DATASET *3
+:VAR Rx OUD all total
+:DATASET *4
+
+:GRAPH Rx_OUD_no_PY_H
+:TITLE Rx OUD no PY Heroin Use
+:SCALE
+:VAR Rx OUD no PY heroin total
+:Y-MIN 0
+:VAR Rx OUD no PY heroin NSDUH
+:VAR Rx OUD no PY heroin total
+:DATASET *2
+:VAR Rx OUD no PY heroin total
+:DATASET *3
+:VAR Rx OUD no PY heroin total
+:DATASET *4
+
+:GRAPH Rx_OUD_with_PY_heroin
+:TITLE Rx OUD PY Heroin Use
+:SCALE
+:VAR Rx OUD with PY heroin total
+:VAR Rx OUD with PY heroin DATA
+:VAR Rx OUD with PY heroin total
+:DATASET *2
+:VAR Rx OUD with PY heroin total
+:DATASET *3
+:VAR Rx OUD with PY heroin total
+:DATASET *4
+
+:GRAPH Heroin_initiation_no_rx
+:TITLE Heroin Initiation No Rx Misuse
+:SCALE
+:VAR Initiating heroin no Rx
+:VAR Initiating heroin no Rx DATA
+:VAR Initiating heroin no Rx
+:DATASET *2
+:VAR Initiating heroin no Rx
+:DATASET *3
+:VAR Initiating heroin no Rx
+:DATASET *4
+
+:GRAPH Fraction_of_heroin_initiation_no_Rx
+:TITLE Fraction of Heroin Initiation by People with no Past Year Rx Misuse
+:SCALE
+:VAR Fraction of heroin initiation no Rx
+:Y-MIN 0
+:VAR Fraction of heroin initiation no Rx DATA
+
+:GRAPH Heroin_initiation_rx_misuse
+:TITLE Heroin Initiation with Rx Misuse
+:SCALE
+:VAR Initiating heroin with Rx misuse
+:Y-MIN 0
+:VAR Initiating heroin with Rx misuse DATA
+:VAR Initiating heroin with Rx misuse
+:DATASET *2
+:VAR Initiating heroin with Rx misuse
+:DATASET *3
+:VAR Initiating heroin with Rx misuse
+:DATASET *4
+
+:GRAPH Fraction_of_Heroin_Initiation_Rx_Misuse
+:TITLE Fraction of Heroin Initiation by People who Misuse Rx Opioids
+:SCALE
+:VAR Fraction of heroin initiation with Rx misuse
+:Y-MIN 0
+:VAR Fraction of heroin initiation with Rx misuse DATA
+
+:GRAPH Heroin_initiation_rxoud
+:TITLE Heroin Initiation with Rx OUD
+:SCALE
+:VAR Initiating heroin with Rx OUD
+:Y-MIN 0
+:VAR Initiating heroin with Rx OUD DATA
+:VAR Initiating heroin with Rx OUD
+:DATASET *2
+:VAR Initiating heroin with Rx OUD
+:DATASET *3
+:VAR Initiating heroin with Rx OUD
+:DATASET *4
+
+:GRAPH Fraction_of_Heroin_Initiation_Rx_OUD
+:TITLE Fraction of Heroin Initiation by People with Rx OUD
+:SCALE
+:VAR Fraction of heroin initiation with Rx OUD
+:Y-MIN 0
+:VAR Fraction of heroin initiation with Rx OUD DATA
+
+:GRAPH Total_heroin_initiation
+:TITLE Total Heroin Initiation
+:SCALE
+:VAR Total heroin initiation
+:VAR Total heroin initiation DATA
+:VAR Total heroin initiation
+:DATASET *2
+:VAR Total heroin initiation
+:DATASET *3
+:VAR Total heroin initiation
+:DATASET *4
+
+:GRAPH Total_opioid_initiation_stack
+:TITLE Total opioid initiation
+:STACK-FILL 0
+:SCALE
+:VAR Total Rx misuse initiation
+:Y-MIN 0
+:VAR Total heroin initiation
+
+:GRAPH Nondisordered_heroin_use
+:TITLE Nondisordered Heroin Use
+:SCALE
+:VAR Nondisordered heroin use
+:Y-MIN 0
+:VAR Nondisordered heroin use DATA
+:VAR Nondisordered heroin use
+:DATASET *2
+:VAR Nondisordered heroin use
+:DATASET *3
+:VAR Nondisordered heroin use
+:DATASET *4
+
+:GRAPH HUD
+:TITLE Heroin Use Disorder
+:SCALE
+:VAR HUD total
+:Y-MIN 0
+:VAR HUD DATA
+:VAR HUD total
+:DATASET *2
+:VAR HUD total
+:DATASET *3
+:VAR HUD total
+:DATASET *4
+
+:GRAPH Rx_Opioid_demand
+:TITLE Prescription Opioid Demand
+:SCALE
+:VAR Rx demand for misuse
+:Y-MIN 0
+:VAR Rx demand for misuse
+:DATASET *2
+:VAR Rx demand for misuse
+:DATASET *3
+:VAR Rx demand for misuse
+:DATASET *4
+
+:GRAPH Rx_users_total
+:TITLE Rx users total
+:SCALE
+:VAR Total Rx users
+:Y-MIN 0
+:VAR total rx users corrected DATA
+:VAR Total Rx users
+:DATASET *2
+:VAR Total Rx users
+:DATASET *3
+:VAR Total Rx users
+:DATASET *4
+:SCALE
+:VAR Total Rx users
+:DATASET *5
+
+:GRAPH Heroin_users_total
+:TITLE Heroin users total
+:SCALE
+:VAR Total heroin users
+:Y-MIN 0
+:VAR Total heroin users DATA
+:VAR Total heroin users
+:DATASET *2
+:VAR Total heroin users
+:DATASET *3
+:VAR Total heroin users
+:DATASET *4
+
+:GRAPH Use_disorder_total
+:TITLE Total Use Disorder
+:SCALE
+:VAR Total with UD
+:Y-MIN 0
+:VAR Total with UD data
+:VAR Total with UD
+:DATASET *2
+:VAR Total with UD
+:DATASET *3
+:VAR Total with UD
+:DATASET *4
+:VAR Total with UD
+:DATASET *5
+
+:GRAPH Treatment_seeking_Rx_OUD
+:TITLE Treatment seeking Rx OUD
+:STACK-FILL 0
+:SCALE
+:VAR Tx seeking fraction by med Rx OUD[Bup]
+:Y-MIN 0
+:Y-MAX 1
+:VAR Tx seeking fraction by med Rx OUD[MMT]
+:VAR Tx seeking fraction by med Rx OUD[Viv]
+
+:GRAPH Treatment_seeking_HUD
+:TITLE Treatment seeking HUD
+:STACK-FILL 0
+:SCALE
+:VAR Tx seeking fraction by med HUD[Bup]
+:Y-MIN 0
+:Y-MAX 1
+:VAR Tx seeking fraction by med HUD[MMT]
+:VAR Tx seeking fraction by med HUD[Viv]
+
+:GRAPH Tx_patients_Bup
+:TITLE Buprenorphine Treatment Receipt
+:SCALE
+:VAR Total by MOUD[Bup]
+:Y-MIN 0
+:VAR Tx point patients Bup DATA
+:Y-MIN 0
+:VAR Total by MOUD[Bup]
+:Y-MIN 0
+:DATASET *2
+:VAR Total by MOUD[Bup]
+:DATASET *3
+:VAR Total by MOUD[Bup]
+:DATASET *4
+
+:GRAPH Tx_pts_and_capac_Bup
+:TITLE Buprenorphine Patient Receipt vs Capacity (Model Run)
+:SCALE
+:VAR Total by MOUD[Bup]
+:Y-MIN 0
+:VAR Bup capacity effective
+
+:GRAPH Tx_patients_MMT
+:TITLE Methadone Treatment Receipt
+:SCALE
+:VAR Total by MOUD[MMT]
+:Y-MIN 0
+:VAR Tx point patients OTP MMT NSSATS
+:VAR Total by MOUD[MMT]
+:DATASET *2
+:VAR Total by MOUD[MMT]
+:DATASET *3
+:VAR Total by MOUD[MMT]
+:DATASET *4
+
+:GRAPH Tx_pts_and_capac_MMT
+:TITLE Methadone Patient Receipt vs Capacity (Model Run)
+:SCALE
+:VAR Total by MOUD[MMT]
+:Y-MIN 0
+:VAR MMT capacity estimated
+
+:GRAPH Tx_patients_Vivitrol
+:TITLE Patients Receiving Vivitrol Treatment
+:SCALE
+:VAR Total by MOUD[Viv]
+:VAR Tx point patients Viv IQVIA
+:VAR Total by MOUD[Viv]
+:DATASET *2
+:VAR Total by MOUD[Viv]
+:DATASET *3
+:VAR Total by MOUD[Viv]
+:DATASET *4
+
+:GRAPH Tx_pts_and_capac_Viv
+:TITLE Vivitrol Patient Receipt vs Capacity (Model Run)
+:SCALE
+:VAR Total by MOUD[Viv]
+:VAR viv capacity estimated
+
+:GRAPH Remission
+:TITLE Remission
+:SCALE
+:VAR total rx oud in remission not in tx
+:Y-MIN 0
+:VAR HUD in remission
+:Y-MIN 0
+:VAR total rx oud in remission not in tx
+:Y-MIN 0
+:DATASET *2
+:VAR HUD in remission
+:DATASET *2
+:VAR total rx oud in remission not in tx
+:DATASET *3
+:VAR HUD in remission
+:DATASET *3
+
+:GRAPH OD_deaths_base_Rx
+:TITLE Rx Opioids Only Overdose Deaths
+:SCALE
+:VAR Total overdose deaths base Rx
+:VAR Total overdose deaths base Rx NVSS
+:VAR Total overdose deaths base Rx
+:DATASET *2
+:VAR Total overdose deaths base Rx
+:DATASET *3
+:VAR Total overdose deaths base Rx
+:DATASET *4
+
+:GRAPH ODs_synth_base
+:TITLE Rx Synthetics Overdose Deaths
+:SCALE
+:VAR Total overdose deaths synth base
+:VAR OD deaths synth baseline estimated
+:VAR Total overdose deaths synth base
+:DATASET *2
+:VAR Total overdose deaths synth base
+:DATASET *3
+:VAR Total overdose deaths synth base
+:DATASET *4
+
+:GRAPH OD_deaths_Rx
+:TITLE Overdose Deaths Involving Prescription Opioids Inc Synthetic
+:SCALE
+:VAR Total overdose deaths Rx
+:VAR Total overdose deaths Rx NVSS
+:VAR Total overdose deaths Rx
+:DATASET *2
+:VAR Total overdose deaths Rx
+:DATASET *3
+:VAR Total overdose deaths Rx
+:DATASET *4
+
+:GRAPH OD_deaths_total
+:TITLE Total Overdose Deaths
+:SCALE
+:VAR Total overdose deaths
+:VAR Total overdose deaths NVSS
+:VAR Total overdose deaths
+:DATASET *2
+:VAR Total overdose deaths
+:DATASET *3
+:VAR Total overdose deaths
+:DATASET *4
+:VAR Total overdose deaths
+:DATASET *5
+
+:GRAPH ODs_heroin_synth
+:TITLE Heroin/IMF Synthetic Overdose Deaths
+:SCALE
+:VAR total overdose deaths heroin
+:VAR Total overdose deaths heroin and excess estimated
+:VAR total overdose deaths heroin
+:DATASET *2
+:VAR total overdose deaths heroin
+:DATASET *3
+:VAR total overdose deaths heroin
+:DATASET *4
+
+:GRAPH Nonfatal_to_Fatal_OD_Ratios
+:TITLE Nonfatal to Fatal OD Ratios
+:SCALE
+:VAR Nonfatal OD ratio heroin
+:VAR Nonfatal OD ratio Rx
+
+:GRAPH Nx_utilization
+:TITLE Nx utilization
+:SCALE
+:VAR Probability Nx bystander heroin
+:VAR Probability Nx bystander Rx
+
+:GRAPH Heroin_users_stack
+:TITLE Total Heroin Users
+:STACK-FILL 0
+:SCALE
+:VAR Nondisordered heroin use
+:VAR Rx OUD with PY heroin total
+:VAR HUD total
+
+:GRAPH Use_disorder_stack
+:TITLE Total Use Disorder
+:STACK-FILL 0
+:SCALE
+:VAR Rx OUD no PY heroin total
+:Y-MIN 0
+:VAR Rx OUD with PY heroin total
+:VAR HUD total
+
+:GRAPH Total_opioid_users_stacked
+:TITLE Total Opioid Users
+:STACK-FILL 0
+:SCALE
+:VAR total heroin users
+:LINE-WIDTH 2
+:VAR Total Rx use excl heroin
+:LINE-WIDTH 2
+
+:GRAPH Total_OD_deaths_user_stack
+:TITLE Total Overdose Deaths by User Type
+:STACK-FILL 0
+:SCALE
+:VAR Total overdose deaths Rx
+:VAR Total overdose deaths Heroin
+
+:GRAPH Total_OD_deaths_opioid_type_stack
+:TITLE Total Overdose Deaths by Opioid Type
+:STACK-FILL 0
+:SCALE
+:VAR Total overdose deaths base heroin
+:VAR total overdose deaths base rx
+:VAR total overdose deaths synth
+
+:GRAPH Bup_Receipt_by_Disorder_stack
+:TITLE Bup Receipt by Disorder (%)
+:STACK-FILL 0
+:SCALE
+:VAR Fraction HUD by MOUD[Bup]
+:Y-MAX 1
+:VAR Fraction Rx OUD by MOUD[Bup]
+:Y-MAX 1
+
+:GRAPH MMT_Receipt_by_Disorder_stack
+:TITLE MMT Receipt by Disorder (%)
+:STACK-FILL 0
+:SCALE
+:VAR Fraction HUD by MOUD[MMT]
+:Y-MAX 1
+:VAR Fraction Rx OUD by MOUD[MMT]
+:Y-MAX 1
+
+:GRAPH Vivitrol_Receipt_by_Disorder_stack
+:TITLE Vivitrol Receipt by Disorder (%)
+:STACK-FILL 0
+:SCALE
+:VAR Fraction HUD by MOUD[Viv]
+:Y-MAX 1
+:VAR Fraction Rx OUD by MOUD[Viv]
+:Y-MAX 1
+
+:GRAPH Total_in_Treatment_by_MOUD_stack
+:TITLE Total in Treatment by MOUD
+:STACK-FILL 0
+:SCALE
+:VAR Total by MOUD[Bup]
+:VAR Total by MOUD[MMT]
+:VAR Total by MOUD[Viv]
+
+:GRAPH Total_Tx_remission_stack
+:TITLE Exiting Treatment in Remission
+:STACK-FILL 0
+:SCALE
+:VAR Tx exit in remission total[TxT]
+
+:GRAPH Remission_stack
+:TITLE Remission
+:STACK-FILL 0
+:SCALE
+:VAR Total Rx OUD in Remission not in Tx
+:VAR HUD in remission
+
+:GRAPH Policy_Projections_-_ADF_Fraction
+:TITLE Policy Projections - ADF Fraction
+:SCALE
+:VAR ADF fraction of prescribed Rx opioids
+:VAR ADF fraction of Rx street supply net
+
+:GRAPH Policy_Projections_-_Avg_MME
+:TITLE Policy Projections - Average MME Per Day
+:NO-LEGEND 4
+:SCALE
+:VAR Average MME per day
+:Y-MIN 0
+:Y-MAX 1000
+
+:GRAPH Policy_Projections_benzos
+:TITLE Policy Projections - Benzodiazepine Prescribing
+:SCALE
+:VAR Benzo prevalence relative
+:VAR Benzo prevalence relative
+:DATASET *2
+
+:GRAPH Policy_Projections_-_Heroin__Fentanyl
+:TITLE Policy Projections - Heroin Price & Fentanyl Penetration
+:SCALE
+:VAR Fentanyl penetration curve
+:VAR heroin price index
+:VAR Benzo prevalence relative
+
+:GRAPH Policy_Projections_-_LEO_Nx
+:TITLE Policy Projections - Probability Nx LEO
+:SCALE
+:VAR Probability Nx LEO
+
+:GRAPH Policy_Projections_-_Nx_Distribution
+:TITLE Policy Projections - Naloxone Distribution
+:SCALE
+:VAR Nx kits distributed net
+
+:GRAPH Policy_Projections_-_Ppl_with_Opioid_Rx
+:TITLE Policy Projections - Ppl with Opioid Rx
+:NO-LEGEND 4
+:SCALE
+:VAR Patients receiving opioid prescription annual
+:Y-MAX 1.5e+08
+
+:GRAPH Policy_Projections_-_Treatment_capacity
+:TITLE Policy Projections - Treatment capacity
+:SCALE
+:VAR Bup capacity effective
+:VAR Bup total theoretical capacity
+:SCALE
+:VAR MMT capacity estimated
+:SCALE
+:VAR viv capacity estimated
+
+:TABLE Feedback_strengths
+:TITLE Feedback strengths
+:PRETTYNUM
+:X-MIN 2002
+:X-MAX 2002
+:NOTIME
+:FIRST-CELLWIDTH 50
+:CELLWIDTH 14
+:FONT Times New Roman|10||0-0-0
+:VAR Social influence strength initiating Rx misuse
+:VAR Social influence strength initiating NDHU no Rx
+:VAR Social influence strength initiating NDHU with Rx
+:VAR Social influence strength developing Rx OUD
+:VAR Social influence strength initiating heroin with Rx OUD
+:VAR Social influence strength developing HUD
+:VAR Heroin availability strength initiating NDHU no Rx
+:VAR Heroin price strength initiating NDHU with Rx
+:VAR Heroin price strength initiating heroin with Rx OUD
+:VAR Heroin availability strength developing HUD
+:VAR Heroin availability strength net quit NDHU
+:VAR Rx availability strength initiating Rx misuse
+:VAR Rx availability strength developing Rx OUD
+:VAR Rx availability strength net quit Rx misuse
+:VAR Rx vs H availability strength initiating NDHU with Rx
+:VAR Rx vs H availability strength initiating heroin with Rx OUD
+:VAR Rx vs H availability strength developing HUD with Rx OUD
+:VAR Perceived risk strength initiating Rx misuse medical
+:VAR Perceived risk strength initiating Rx misuse diverted
+:VAR Perceived risk strength initiating NDHU no Rx
+:VAR Perceived risk strength initiating NDHU with Rx
+:VAR Perceived risk strength initiating heroin with Rx OUD
+:VAR Perceived risk strength net quit Rx misuse
+:VAR Perceived risk strength net quit NDHU
+:VAR Perceived risk strength net quit NDHU with Rx
+:VAR Perceived risk strength net quit heroin with Rx OUD
+
+:TABLE PolicyOutputTable
+:TITLE Policy Output Table
+:PRETTYNUM
+:FIRST-CELLWIDTH 21
+:CELLWIDTH 8
+:FONT Times New Roman|12|B|0-0-0
+:VAR Cumulative overdose deaths since 2002|BaselineCumDeaths
+:DATASET first2030run
+:VAR Total in Tx Bup|Baseline BUP Tx
+:DATASET first2030run
+:VAR Total in Tx Bup|Policy Run
+:DATASET testpolicyrun
+:VAR Total Rx misuse initiation|Baseline Rx misuse init
+:DATASET first2030run
+:VAR Total Rx misuse initiation|Policy Run
+:DATASET testpolicyrun
+:VAR Total heroin initiation|Baseline Heroin init
+:DATASET first2030run
+:VAR Total heroin initiation|Policy Run
+:DATASET testpolicyrun
+:VAR Rx misuse no PY heroin|Baseline Rx only misuse
+:DATASET first2030run
+:VAR Rx misuse no PY heroin|Policy Run
+:DATASET testpolicyrun
+:VAR Total RX only OUD|Baseline Rx OUD
+:DATASET first2030run
+:VAR Total RX only OUD|Policy Run
+:DATASET testpolicyrun
+:VAR Total HUD incl Rx w PY H|Baseline Heroin Users
+:DATASET first2030run
+:VAR Total HUD incl Rx w PY H|Policy Run
+:DATASET testpolicyrun
+:VAR Cumulative overdose deaths since 2002|...Policy Run
+:DATASET testpolicyrun
+
+:TABLE OD_Parameters
+:TITLE OD Parameters
+:PRETTYNUM
+:X-MIN 2002
+:X-MAX 2002
+:NOTIME
+:FIRST-CELLWIDTH 45
+:CELLWIDTH 14
+:FONT Times New Roman|10||0-0-0
+:VAR Base survival probability H OD
+:VAR Base survival probability Rx OD
+:VAR Fentanyl effect on base survival max
+:VAR Fentanyl effect on OD rate H max
+:VAR Fentanyl effect on OD rate Rx max
+:VAR Fentanyl effect on timely OD intervention relative
+:VAR Overdose rate base HUD
+:VAR Overdose rate base NDHU
+:VAR Overdose rate base Rx misuse
+:VAR Overdose rate base Rx OUD no H
+:VAR Overdose rate base Rx OUD with H
+:VAR Overdose rate synth baseline HUD
+:VAR Overdose rate synth baseline Rx OUD no H
+:VAR Overdose rate synth baseline Rx OUD with H
+:VAR Fentanyl penetration scaling H supply
+:VAR Fentanyl penetration scaling Rx supply
+:VAR Benzo OD effect strength H
+:VAR Benzo OD effect strength Rx
+
+:TABLE Transition_parameters
+:TITLE Transition parameters
+:PRETTYNUM
+:X-MIN 2002
+:X-MAX 2002
+:NOTIME
+:FIRST-CELLWIDTH 40
+:CELLWIDTH 14
+:FONT Times New Roman|10||0-0-0
+:VAR Initiation rate Rx misuse medical
+:VAR Initiation rate heroin with Rx misuse
+:VAR Initiation rate heroin with Rx OUD
+:VAR Developing Rx OUD rate
+:VAR Developing HUD rate no Rx OUD
+:VAR Developing HUD rate with Rx OUD
+:VAR Net quit rate Rx misuse
+:VAR Net quit rate NDHU
+:VAR Net quit rate heroin with Rx misuse
+:VAR Net quit rate heroin with Rx OUD
+:VAR Remission rate Rx OUD no H no MOUD Tx
+:VAR Remission rate Rx OUD with H no MOUD Tx
+:VAR Remission rate HUD no MOUD Tx
+:VAR Bup capacity effective fraction
+:VAR Tx seeking rate Rx OUD no H Bup
+:VAR Tx seeking rate Rx OUD with H Bup
+:VAR Tx seeking rate HUD Bup
+:VAR Tx seeking rate Rx OUD no H MMT
+:VAR Tx seeking rate Rx OUD with H MMT
+:VAR Tx seeking rate HUD MMT
+:VAR Remission fraction in Tx Bup
+:VAR Remission fraction in Tx MMT
+:VAR Relapse rate Bup
+:VAR Relapse rate MMT
+:VAR Leaving Tx in remission HUD Bup
+:VAR Leaving Tx in remission HUD MMT
+:VAR Tx success fraction Bup
+:VAR Tx success fraction MMT
+
+:GRAPH Tx_success_duration
+:TITLE Treatment Success and Duration
+:SCALE
+:VAR tx success fraction[TxT]
+
+:GRAPH Prob_Nx_bystander
+:TITLE Probability of Nx Administration by Bystander
+:SCALE
+:VAR Probability Nx bystander heroin
+:VAR Probability Nx bystander Rx
+
+:GRAPH Patients_per_provider_by
+:TITLE Patients per provider by providers
+:X-AXIS Bup providers
+:SCALE
+:VAR Bup effective capacity per provider net
+:VAR Bup patients per provider
+:VAR Bup patients per provider DATA

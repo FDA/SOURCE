@@ -1,0 +1,86 @@
+:OPTIMIZER=Powell
+:SENSITIVITY=Off
+:MULTIPLE_START=RRandom
+:RANDOM_NUMBER=Default
+:SEED=1
+:OUTPUT_LEVEL=On
+:TRACE=Off
+:MAX_ITERATIONS=1000
+:RESTART_MAX=10
+:PASS_LIMIT=2
+:FRACTIONAL_TOLERANCE=1e-07
+:TOLERANCE_MULTIPLIER=21
+:ABSOLUTE_TOLERANCE=1
+:SCALE_ABSOLUTE=1
+:VECTOR_POINTS=25
+:MCINITMETHOD=0
+:MCPAYOFFTYPE=0
+:MCRECORD=0
+:MCSCHEDULE=0
+:MCLIMIT=0
+:MCBURNIN=0
+:MCNCHAINS=2
+:MCOUTLIER=0.05
+:MCGAMMA=1
+:MCEPSILON=0.01
+:MCDELTA=0.0001
+:MCJUMP=0.05
+:MCUPDATEPAIRS=2
+:MCXOVER=0.2
+:MCTEMP=1
+:MCFTEMP=1
+:MCCOOLING=1000
+1e-06<=ADF effect strength initiating heroin with Rx OUD<=1
+0.8<=Base survival probability H OD relative to Rx<=1
+0.9<=Base survival probability Rx OD<=0.99
+0.05 <= Developing HUD rate no Rx OUD <= 0.5
+0.05 <= Developing HUD rate with Rx OUD <= 1.5
+0.01 <= Developing Rx OUD rate <= 0.3
+0.2<=Fentanyl effect on base survival max relative to H=0.6<=0.8
+2<=Fentanyl effect on OD rate H max=5<=7
+0.5 <= Fraction Nx kits to H users <= 0.95
+1e-06<=Heroin availability strength developing HUD<=2
+1e-06<=Heroin availability strength initiating NDHU no Rx<=2
+1e-06<=Heroin availability strength net quit NDHU<=2
+0.8<=Initial stock correction[Initials]<=1.2
+40000 <= Initiating heroin no Rx base <= 160000
+1.80E+06 <= Initiating Rx misuse diverted base <= 2.40E+06
+0.004 <= Initiation rate heroin with Rx misuse <= 0.03
+2 <= Initiation rate heroin with Rx OUD relative to Rx misuse<= 5
+0.001 <= Initiation rate Rx misuse own Rx <= 0.1
+0.01 <= Net quit rate heroin with Rx misuse <= 0.8
+0.01 <= Net quit rate heroin with Rx OUD <= 0.2
+0.05 <= Net quit rate NDHU <= 0.5
+0.05 <= Net quit rate Rx misuse=0.18<= 0.5
+0.1<=NSDUH misuse redefinition fixed effect=0.38<=0.5
+0.0001<=Nx kit distribution efficiency<=0.002
+0.05<=Overdose rate base HUD<=0.2
+0.25<=Overdose rate NDHU relative to HUD<=1
+0.001<=Overdose rate base Rx misuse=0.01<=0.025
+0.025<=Overdose rate base Rx OUD<=0.4
+0.005<=Overdose rate synth baseline<=0.1
+1e-06<=Perceived risk strength initiating heroin with Rx use<=2
+1e-06<=Perceived risk strength initiating NDHU no Rx<=2
+1e-06<=Perceived risk strength initiating Rx misuse diverted<=2
+1e-06<=Perceived risk strength initiating Rx misuse own Rx<=2
+1e-06<=Perceived risk strength net quit heroin with Rx OUD<=0.5
+1e-06<=Perceived risk strength net quit NDHU<=0.5
+1e-06<=Perceived risk strength net quit NDHU with Rx<=0.5
+1e-06<=Perceived risk strength net quit Rx misuse<=2
+0.01<=Relapse rate HUD<=1
+0.05<=Relapse rate Rx OUD relative to HUD<=1
+1<=Remission rate Rx OUD relative to HUD<=2
+1e-06<=Rx availability strength developing Rx OUD<=2
+1e-06<=Rx availability strength initiating Rx misuse<=2
+1e-06<=Rx availability strength net quit Rx misuse<=2
+1e-06<=Rx vs H availability strength developing HUD with Rx OUD<=2
+1e-06<=Rx vs H availability strength initiating heroin with Rx OUD<=2
+1e-06<=Rx vs H availability strength initiating NDHU with Rx<=2
+1e-06<=Social influence strength developing HUD<=2
+1e-06<=Social influence strength developing Rx OUD<=2
+1e-06<=Social influence strength initiating heroin with Rx OUD<=2
+1e-06<=Social influence strength initiating NDHU no Rx<=2
+1e-06<=Social influence strength initiating NDHU with Rx<=2
+1e-06<=Social influence strength initiating Rx misuse<=2
+3<=Time to stabilize remission<=20
+0.1<=Tx seeking rate Rx OUD no H total=0.65<=1
