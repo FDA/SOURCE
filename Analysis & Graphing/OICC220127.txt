@@ -1,0 +1,125 @@
+{
+	"baserunname": "X8", 
+	"simsettings": {
+		"model": "OSM_Master_CURRENT.mdl", 
+		"data": [
+			"inputtimeseries.vdf", 
+			"validationtimeseries.vdf", 
+			"monthlytimeseries.vdf", 
+			"yearsubs.vdf"
+			], 
+		"payoff": "OIC0203.vpd", 
+		"sensitivity": "", 
+		"optparm": "OIC220127.voc", 
+		"changes": ["CalWts220120.cin", "ProjEndVals.cin"], 
+		"savelist": "", 
+		"senssavelist": "OIC_sens.lst"
+		},
+	"vensimpath": "C:/Users/Public/CovidProject/Toolbox/Vengine20211108/Vensim - vengine.exe", 
+	"vensim7path": "C:/Program Files (x86)/Vensim7/vensimdp.exe",  
+	"graphs": "OSM_Master.vgd",
+	"fractolfactor": 300, 
+	"threshold": 20, 
+	"iterlimit": 0,
+	"twostep": 0, 
+	"timelimit": 600,
+	"mccores": 0,
+	"mcsettings": {
+		"OPTIMIZER": "MCMC", 
+		"SENSITIVITY": "Off", 
+		"MULTIPLE_START": "RRandom", 
+		"RESTART_MAX": 1,
+		"FRACTIONAL_TOLERANCE": 1e-5,
+		"MCLIMIT": 2500000,
+		"MCINITMETHOD": 3,
+		"MCTEMP": 1,
+		"MCBURNIN": 1500000,
+		"MCNCHAINS": 2
+		}, 
+	"samplefrac": 0.005,
+	"noise": 1, 
+	"noise_dto": 2, 
+	"odlinekey": ["Fentanyl", " OD", "Overdose", "Nx"], 
+	"basescens": ["Base.cin", "Cnst.cin", "FentH.cin", "FentL.cin"], 
+	"scenariolist": ["Pos.cin", "Neg.cin", "NoFentHist.cin"], 
+	"policylist": [
+		"None.cin", "BupProvBarriers.cin", "BupProv.cin", "DevOUD.cin", "DivRxInit.cin", "FentODRisk.cin", "HInit.cin", "NxKits.cin", "OwnRxInit.cin", "Package.cin", "Package_noFent.cin", "PeerRecovery.cin",  "RxRate.cin", "ReturntoOUD.cin", "BupProvBarriers10.cin", "BupProv10.cin", "DevOUD10.cin", "DivRxInit10.cin", "FentODRisk10.cin", "HInit10.cin", "NxKits10.cin", "OwnRxInit10.cin", "Package10.cin", "Package_noFent10.cin", "PeerRecovery10.cin", "RxRate10.cin", "ReturntoOUD10.cin", "BupProvBarriers50.cin", "BupProv50.cin", "DevOUD50.cin", "DivRxInit50.cin", "FentODRisk50.cin", "HInit50.cin", "NxKits50.cin", "OwnRxInit50.cin", "Package50.cin", "Package_noFent50.cin", "PeerRecovery50.cin", "RxRate50.cin", "ReturntoOUD50.cin", "DivRxInit65.cin", "NxPeerRecovery.cin", "Package_RR.cin"
+		], 
+	"testlist": ["Data2019.cin", "FentMax.cin"], 
+	"analysissettings": {
+		"sensrange": 0.1, 
+		"sensvars": [
+			"ADF substitutability factor", "Effect of MOUD Tx on OD death rate[Bup]", "Effect of MOUD Tx on OD death rate[MMT]", "Effect of MOUD Tx on OD death rate[Viv]", "OxyContin withdrawal magnitude", "Perceived risk decrease time", "Perceived risk increase time", "Perceived risk weight NFOD", "Probability OD witnessed", "Probability of calling emergency services", "Remission rate HUD no MOUD Tx", "Rx demand HUD with Rx OUD or misuse", "Rx demand Rx OUD no H", "Sensitivity of Rx supply to patients receiving prescription", "Sensitivity of Rx supply to Rx per person", "Sensitivity of Rx supply to days per prescription", "Sensitivity of Rx supply to MME per day", "Time to readjust Rx street supply", "Tx average duration Bup", "Tx average duration MMT", "Tx average duration Viv", "Tx seeking fraction Bup HUD", "Tx seeking fraction Bup Rx OUD", "Tx seeking fraction MMT HUD relative", "Tx seeking fraction MMT Rx OUD relative", "Tx seeking rate HUD relative to Rx OUD no H", "Tx success fraction inflection"
+			],	
+		"fitlist": [
+			["RMis", "Rx misuse"], ["ROUD", "Rx OUD no heroin"], ["ROUH", "Rx OUD with heroin"], 
+			["NDHU", "Nondisordered heroin use"], ["HUD", "Heroin use disorder"], 
+			["TxBp", "MOUD Tx (buprenorphine)"],  ["TxMt", "MOUD Tx (methadone)"], 
+			["TxVi", "MOUD Tx (Vivitrol)"], ["InRM", "Rx misuse initiation (own Rx)"], 
+			["InRD", "Rx misuse initiation (diverted)"], ["InHT", "Total heroin initiation"], 
+			["InHD", "Heroin initiation (direct)"], ["InHR", "Heroin initiation (Rx misuse)"], 
+			["InHO", "Heroin initiation (Rx OUD)"], ["ODRB", "Overdose deaths (Rx opioids only)"], 
+			["ODHC", "Overdose deaths (heroin & illicit synthetics)"], 
+			["ODSB", "Overdose deaths (synthetics base)"], ["ODTo", "Total overdose deaths"]
+			], 
+		"priorlist": [
+			["NFRR", "2013", "Nonfatal OD ratio Rx"], ["NFRH", "2013", "Nonfatal OD ratio heroin"], 
+			["DFRB", "2018", "Bup demand fulfilment ratio"], ["PNxH", "2019", "Probability Nx bystander heroin"], 
+			["NxHF", "2013", "Nx utilization events H user fraction"], ["RemO", "2013", "Rx OUD in remission total"], 
+			["RemH", "2013", "HUD in remission total"], ["ReSO", "2013", "Rx OUD in stable remission total"], 
+			["ReSH", "2013", "HUD in stable remission total"]
+			], 
+		"param_percs": [0.05, 0.5, 0.95], 
+		"mainfits": ["InRT", "InHT", "ROUT", "HUD", "ODRB", "ODHC"], 
+		"projfits": ["InRT", "InHT", "ROUT", "HUD", "ODRT", "ODHC"], 
+		"figdpi": 600, 
+		"figext": "svg", 
+		"bounds": [[2.5, 97.5]], 
+		"yearvals": [
+			"Developing HUD rate with Rx OUD effective", "Initiation rate heroin with Rx misuse effective", "Initiation rate heroin with Rx OUD effective", "Initiation rate Rx misuse own Rx effective", "Overdose death rate Rx OUD no H", "Overdose death rate HUD", "Overdose death rate base HUD no synth counterfactual", "Overdose death rate HUD no Nx counterfactual", "Cumulative overdose deaths", "Cumulative Nx utilization deaths averted"
+			], 
+		"years": ["1999", "2012", "2014", "2020"], 
+		"yv_percs": [5.0, 95.0], 
+		"outvars": ["Cumulative overdose deaths", "Cumulative UD person years"], 
+		"projvars": ["Projected cumulative overdose deaths", "Projected cumulative UD person years"], 
+		"styear": 1999, 
+		"endyear": 2020, 
+		"projyear": 2032, 
+		"compperc": 50.0, 
+		"polvars": ["Total overdose deaths", "Total with UD"], 
+		"annvars": ["Projected total overdose deaths", "Projected total with UD"], 
+		"polstart": 2022, 
+		"polquants": [0.025, 0.05, 0.1, 0.25, 0.5, 0.75, 0.9, 0.95, 0.975], 
+		"polsavelist": "Pol_sens.lst", 
+		"polnames": {
+			"None": "None", "BupProv": "Bup Providers", "BupProvBarriers": "Bup Prov Capacity", "DevOUD": "Developing OUD", "Diversion": "Diversion", "DivRxInit": "Diverted Rx Init", "FentH": "High Fentanyl", "FentL": "Low Fentanyl", "FentODRisk": "Fent OD Risk", "HInit": "Heroin Init", "MMEperRx": "MME per Rx", "MMTCapInc": "MMT Capacity", "NxKits": "Nx Kits", "NxPeerRecovery": "Nx Kits + Peer Recovery", "OwnRxInit": "Own Rx Init", "Package": "Package", "Package_noFent": "Package (Alternate)", "Package_RR": "Package (R&R)", "PeerRecovery": "Peer Recovery", "ReturntoOUD": "Return to OUD", "RxDuration": "Rx Duration", "RxRate": "People with Rx", "XRNTXCap": "XR-NTX Capacity", "BupProv10": "Bup Providers 10", "BupProvBarriers10": "Bup Prov Capacity 10", "DevOUD10": "Developing OUD 10", "Diversion10": "Diversion 10", "DivRxInit10": "Diverted Rx Init 10", "FentH10": "High Fentanyl 10", "FentL10": "Low Fentanyl 10", "FentODRisk10": "Fent OD Risk 10", "HInit10": "Heroin Init 10", "MMEperRx10": "MME per Rx 10", "MMTCapInc10": "MMT Capacity 10", "NxKits10": "Nx Kits 10", "OwnRxInit10": "Own Rx Init 10", "Package10": "Package 10", "Package_noFent10": "Package (Alternate) 10", "PeerRecovery10": "Peer Recovery 10", "ReturntoOUD10": "Return to OUD 10", "RxDuration10": "Rx Duration 10", "RxRate10": "People with Rx 10", "XRNTXCap10": "XR-NTX Capacity 10", "BupProv50": "Bup Providers 50", "BupProvBarriers50": "Bup Prov Capacity 50", "DevOUD50": "Developing OUD 50", "Diversion50": "Diversion 50", "DivRxInit50": "Diverted Rx Init 50", "FentH50": "High Fentanyl 50", "FentL50": "Low Fentanyl 50", "FentODRisk50": "Fent OD Risk 50", "HInit50": "Heroin Init 50", "MMEperRx50": "MME per Rx 50", "MMTCapInc50": "MMT Capacity 50", "NxKits50": "Nx Kits 50", "OwnRxInit50": "Own Rx Init 50", "Package50": "Package 50", "Package_noFent50": "Package (Alternate) 50", "PeerRecovery50": "Peer Recovery 50", "ReturntoOUD50": "Return to OUD 50", "RxDuration50": "Rx Duration 50", "RxRate50": "People with Rx 50", "XRNTXCap50": "XR-NTX Capacity 50", "DivRxInit65": "Diverted Rx Init 65%"
+			}, 
+		"holdoutyear": 2012, 
+		"hold_percs": [[2.5, 97.5]], 
+		"hold_excl": ["ODSB", "TxMt", "TxVi"], 
+		"hold_drop": ["ODHC", "ODTo"], 
+		"synsample": 20, 
+		"syn_percs": [0.01, 0.025, 0.05, 0.1, 0.25, 0.5, 0.75, 0.9, 0.95, 0.975, 0.99], 
+		"syn_reppercs": [50, 80, 90, 95, 98], 
+		"syn_mainperc": 95, 
+		"paramvals": [
+			"Perceived risk weight NFOD", "OxyContin withdrawal magnitude", "Tx seeking rate HUD relative to Rx OUD no H", "Bup effective capacity decay constant", "Bup effective capacity per provider base", "Bup effective capacity rampup time", "Bup rampup start year", "MMT OTP capacity utilization NSSATS", "Viv capacity utilization NSSATS", "Tx average duration Bup", "Tx average duration MMT", "Tx average duration Viv", "NonOD death rate HUD or OUD", "Effect of MOUD Tx on NonOD death rate[MMT]", "Effect of MOUD Tx on NonOD death rate[Bup]", "Effect of MOUD Tx on NonOD death rate[Viv]", "Effect of MOUD Tx on OD death rate[MMT]", "Effect of MOUD Tx on OD death rate[Viv]", "Remission rate HUD no MOUD Tx", "Probability OD witnessed", "Probability of calling emergency services", "Rx OUD in remission total prior NESARC", "Rx OUD in stable remission total prior NESARC", "HUD in remission total prior NESARC", "HUD in stable remission total prior NESARC"
+			]
+		}, 
+	"proj_subs": ["Fent", "NxKD", "HPI", "BMDCap", "MMTCap", "VivCap", "PtRx", "RxPP", "RxDur", "MME", "ADF"], 
+	"lkdict": {
+		"av": [
+			"Heroin availability strength developing HUD", "Heroin availability strength initiating NDHU no Rx", "Heroin availability strength net quit NDHU", "Rx availability strength developing Rx OUD", "Rx availability strength initiating Rx misuse", "Rx availability strength net quit Rx misuse", "Rx vs H availability strength developing HUD with Rx OUD", "Rx vs H availability strength initiating heroin with Rx OUD", "Rx vs H availability strength initiating NDHU with Rx"
+			], 
+		"pr": [
+			"Perceived risk strength initiating heroin with Rx use", "Perceived risk strength initiating NDHU no Rx", "Perceived risk strength initiating Rx misuse diverted", "Perceived risk strength initiating Rx misuse own Rx", "Perceived risk strength net quit heroin with Rx OUD", "Perceived risk strength net quit NDHU", "Perceived risk strength net quit NDHU with Rx", "Perceived risk strength net quit Rx misuse"
+			], 
+		"si": [
+			"Social influence strength developing HUD", "Social influence strength developing Rx OUD", "Social influence strength initiating heroin with Rx OUD", "Social influence strength initiating NDHU no Rx", "Social influence strength initiating NDHU with Rx", "Social influence strength initiating Rx misuse"
+			]
+		}, 	
+	"policyleverlist": [
+		"Policy change ADF fraction of prescribed Rx opioids", "Policy change average MME per Rx", "Policy change Bup capacity effective fraction", "Policy change Bup total theoretical capacity", "Policy change initiating NDHU no Rx", "Policy change initiating Rx misuse diverted", "Policy change initiation rate heroin with Rx misuse", "Policy change initiation rate Rx misuse own Rx", "Policy change MMT capacity", "Policy change patients with opioid prescription", "Policy change Nx kits distributed H user", "Policy change Nx kits distributed H user", "Policy change probability of calling emergency services", "Policy change probability Nx LEO", "Policy change probability OD witnessed", "Policy change relapse rate", "Policy change remission fraction in Tx", "Policy change Rx street supply shocks", "Policy change Rx supply relative", "Policy change Tx average duration", "Policy change Tx demand fulfilment curve steepness", "Policy change Tx intake delay", "Policy change Tx seeking rate Rx OUD no H total", "Policy change Viv capacity"
+		],
+	"assmfile": "Assumptions1121.cin"
+	}
