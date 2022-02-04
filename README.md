@@ -14,7 +14,7 @@ Vensim model files and Python code (in .ipynb format) used for model estimation,
 ### Data
 Excel data and documentation files, as well as R code for pre-processing of NSDUH data. Explanations of data calculations, assumptions, literature reviews, etc. are in these files.
 
-**Note:** Vensim data format (VDF) versions of the relevant portions of these data files used in the model are found in [Vensim Files](./Vensim Files) and the [Replication Package](./Replication Package).
+**Note:** Vensim data format (VDF) versions of the relevant portions of these data files used in the model are found in [Vensim Files](/Vensim Files/) and the [Model & Analysis Replication Package](/Model & Analysis Replication Package/).
 
 ### Model Documentation & Review Reports
 Documentation of model structure, estimation process, and supplementary analyses, as well as final reports from FDA-commissioned third-party reviews.
@@ -22,7 +22,7 @@ Documentation of model structure, estimation process, and supplementary analyses
 ### Model & Analysis Replication Package
 Minimal file and code package needed to replicate the analysis 'from scratch', without any pre-generated results or figures. **Use this to directly replicate the complete model estimation & analysis process.** To do so:
 1. Make a local copy of this folder
-2. Update the ControlFile OICC\*.txt according to the instructions in (README FILE NAME HERE)
+2. Update the ControlFile OICC\*.txt according to the instructions [here](/Analysis & Graphing/Readme.MD)
 3. Run OIC-OO v6.ipynb, loading the updated ControlFile when prompted; make sure any necessary Python packages are installed before attempting to run!
 4. Then run OSM Results Processing.ipynb
 5. Then run the desired Graphing .ipynb code in any order
