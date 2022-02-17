@@ -17,8 +17,8 @@ Holdout cutoff year	2012
 Total holdout years	8
 Total holdout datapoints	120
 Holdout datapoints in pred. interval	86
-Base-Cnst delta for Projected cumulative overdose deaths	-0.0705067212778524
-Base-Cnst delta for Projected cumulative UD person years	0.08633543938693883
+Base-Cnst delta for Projected cumulative overdose deaths	-0.08955337886412652
+Base-Cnst delta for Projected cumulative UD person years	0.08136863543788188
 
 
 Fixed parameter values
