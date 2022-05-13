@@ -73,7 +73,7 @@
 		"mainfits": ["InRT", "InHT", "ROUT", "HUD", "ODRB", "ODHC"], 
 		"projfits": ["InRT", "InHT", "ROUT", "HUD", "ODRT", "ODHC"], 
 		"figdpi": 600, 
-		"figext": "svg", 
+		"figext": "pdf", 
 		"bounds": [[2.5, 97.5]], 
 		"yearvals": [
 			"Developing HUD rate with Rx OUD effective", "Initiation rate heroin with Rx misuse effective", "Initiation rate heroin with Rx OUD effective", "Initiation rate Rx misuse own Rx effective", "Overdose death rate Rx OUD no H", "Overdose death rate HUD", "Overdose death rate base HUD no synth counterfactual", "Overdose death rate HUD no Nx counterfactual", "Cumulative overdose deaths", "Cumulative Nx utilization deaths averted"
