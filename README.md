@@ -2,12 +2,12 @@
 #### *Simulation of Opioid Use, Response, Consequences, and Effects*
 
 Model, analysis code, data and output files for FDA opioid systems model, as utilized in:
-+ Lim, Stringfellow, et al. 2022, "Modeling the evolution of the U.S. opioid crisis for national policy development", under review
++ Lim, Stringfellow, et al. 2022, "Modeling the evolution of the U.S. opioid crisis for national policy development", forthcoming in *PNAS*
 	+ Reports technical aspects of model development, estimation process, and replication of historical data from 1999-2020, as well as analyses of historical patterns and dynamics
 + Stringfellow, Lim, et al. 2022, "Reducing opioid use disorder and overdose in the United States: A dynamic modeling analysis", forthcoming in *Science Advances*
 	+ Reports analyses of 11 potential policy strategies for addressing the opioid crisis, with projected effects on overdose mortality and opioid use disorder from 2022-2032
 
-**NOTE:** This is an archival version of the data and materials, corresponding to the version of Stringfellow et al. submitted on 18 Feb 2022. For the most updated version, please see the live repository at [github.com/FDA/SOURCE](https://github.com/FDA/SOURCE).
+**NOTE:** This is an archival version of the data and materials, corresponding to the publication version of Lim et al. and the final accepted version of Stringfellow et al. For the most updated version of the model and associated files, please see the live repository at [github.com/FDA/SOURCE](https://github.com/FDA/SOURCE).
 
 For any questions, please contact [Tse Yang Lim](mailto:tylim@mit.edu) or [Mohammad Jalali](mailto:msjalali@mgh.harvard.edu).
 
