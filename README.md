@@ -20,7 +20,7 @@ Excel data and documentation files, as well as R code for pre-processing of NSDU
 **Note:** Vensim data format (VDF) versions of the relevant portions of these data files used in the model are found in [Vensim Files](/Vensim%20Files/) and the [Model & Analysis Replication Package](/Model%20%26%20Analysis%20Replication%20Package/).
 
 ### Model Documentation & Review Reports
-Documentation of model structure, estimation process, and supplementary analyses, as well as final reports from FDA-commissioned third-party reviews.
+Final reports from FDA-commissioned third-party reviews. For documentation of model structure, estimation process, and supplementary analyses, see *SI Appendix* of Lim et al. at [10.1073/pnas.2115714119](https://doi.org/10.1073/pnas.2115714119).
 
 ### Model & Analysis Replication Package
 Minimal file and code package needed to replicate the analysis 'from scratch', without any pre-generated results or figures. **Use this to directly replicate the complete model estimation & analysis process.** To do so:
