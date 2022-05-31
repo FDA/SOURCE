@@ -4,7 +4,7 @@
 Model, analysis code, data and output files for FDA opioid systems model, as utilized in:
 + Lim, Stringfellow, et al. 2022, "Modeling the evolution of the U.S. opioid crisis for national policy development", published in *PNAS* at [10.1073/pnas.2115714119](https://doi.org/10.1073/pnas.2115714119)
 	+ Reports technical aspects of model development, estimation process, and replication of historical data from 1999-2020, as well as analyses of historical patterns and dynamics
-+ Stringfellow, Lim, et al. 2022, "Reducing opioid use disorder and overdose in the United States: A dynamic modeling analysis", forthcoming in *Science Advances* at [10.1126/sciadv.abm8147](https://doi.org/10.1126/sciadv.abm8147)
++ Stringfellow, Lim, et al. 2022, "Reducing opioid use disorder and overdose deaths in the United States: A dynamic modeling analysis", forthcoming in *Science Advances* at [10.1126/sciadv.abm8147](https://doi.org/10.1126/sciadv.abm8147)
 	+ Reports analyses of 11 potential policy strategies for addressing the opioid crisis, with projected effects on overdose mortality and opioid use disorder from 2022-2032
 
 **NOTE:** This is an archival version of the data and materials, corresponding to the publication version of Stringfellow et al. For the most updated version of the model and associated files, please see the live repository at [github.com/FDA/SOURCE](https://github.com/FDA/SOURCE). For the archival version corresponding to Lim et al., please see the Zenodo repository at [zenodo.org/record/6544836](https://zenodo.org/record/6544836).
