@@ -7,7 +7,7 @@ Model, analysis code, data and output files for FDA opioid systems model, as uti
 + Stringfellow, Lim, et al. 2022, "Reducing opioid use disorder and overdose deaths in the United States: A dynamic modeling analysis", forthcoming in *Science Advances* at [10.1126/sciadv.abm8147](https://doi.org/10.1126/sciadv.abm8147)
 	+ Reports analyses of 11 potential policy strategies for addressing the opioid crisis, with projected effects on overdose mortality and opioid use disorder from 2022-2032
 
-**NOTE:** This is an archival version of the data and materials, corresponding to the publication version of Stringfellow et al. For the most updated version of the model and associated files, please see the live repository at [github.com/FDA/SOURCE](https://github.com/FDA/SOURCE). For the archival version corresponding to Lim et al., please see the Zenodo repository at [zenodo.org/record/6544836](https://zenodo.org/record/6544836).
+**NOTE:** This is the live, updated version of the model and associated files. For the archival version corresponding to Lim et al., please see the Zenodo repository at [zenodo.org/record/6544836](https://zenodo.org/record/6544836); for the archival version corresponding to Stringfellow et al., please see the Zenodo repository at [zenodo.org/record/6599589](https://zenodo.org/record/6599589).
 
 For any questions, please contact [Tse Yang Lim](mailto:tylim@mit.edu), [Erin Stringfellow](mailto:estringfellow@mgh.harvard.edu), [Mohammad Jalali](mailto:msjalali@mgh.harvard.edu), or [Reza Kazemi](mailto:reza.kazemi-tabriz@fda.hhs.gov).
 
